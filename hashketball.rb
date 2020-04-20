@@ -208,8 +208,9 @@ def teams
 end
 
 def team_colors(team_name)
-  teams.find do |color|
-    color 
+  teams.find do |team_name|
+    team_name[:colors] == team_name
+  end
 end
   
 
