@@ -204,6 +204,11 @@ def home_team
 end
 
 def teams 
-  away
+  away_team + home_team
+end
+
+def team_colors(team_name)
+  
+end
   
 
