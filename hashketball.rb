@@ -147,7 +147,6 @@ def team_colors(team_name)
       return team_data[:colors]
         end
       end
-      player_numbers
     end
     
 def team_names
@@ -157,9 +156,6 @@ def team_names
         end
       team_names
     end
-
-
-
 
 def player_numbers(team_name)
   player_numbers = []
