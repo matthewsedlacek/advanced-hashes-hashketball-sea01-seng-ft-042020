@@ -208,7 +208,7 @@ def teams
 end
 
 def team_colors(team_name)
-  
+  teams.find 
 end
   
 
