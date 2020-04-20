@@ -196,7 +196,7 @@ def big_shoe_rebounds
       end
 
 def away_team
-  
+  game_hash
 end
 
 def home_team
