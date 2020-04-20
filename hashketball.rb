@@ -196,9 +196,14 @@ def big_shoe_rebounds
       end
 
 def away_team
-  game_hash
+  game_hash[:away]
 end
 
 def home_team
+  game_hash[:home]
+end
+
+def teams 
+  away
   
 
