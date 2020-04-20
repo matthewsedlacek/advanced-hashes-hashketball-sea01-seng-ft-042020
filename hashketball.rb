@@ -195,3 +195,10 @@ def big_shoe_rebounds
       rebounds
       end
 
+def away_team
+  
+end
+
+def home_team
+  
+
