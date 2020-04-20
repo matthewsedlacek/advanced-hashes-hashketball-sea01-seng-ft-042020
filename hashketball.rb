@@ -209,7 +209,7 @@ end
 
 def team_colors(team_name)
   teams.find do |color|
-    
+    color 
 end
   
 
