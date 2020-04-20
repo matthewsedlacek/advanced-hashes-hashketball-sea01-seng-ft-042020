@@ -203,13 +203,9 @@ def home_team
   game_hash[:home]
 end
 
-def teams 
-  away_team + home_team
-end
-
 def team_colors(team_name)
-  teams.find do |team_name|
-    team_name[:colors] == team_name
+  game_hash.find do |game_key,value|
+    team_name[:team_name] == team_name
   end
 end
   
